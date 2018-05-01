@@ -1,5 +1,6 @@
 #!/bin/bash -xve
 
+:
 #required packages
 pip install --upgrade pip
 pip install catkin_pkg
