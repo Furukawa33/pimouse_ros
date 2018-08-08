@@ -5,5 +5,10 @@ script:
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws/devel/setup.bash
+<<<<<<< HEAD
 #  - bash -xve ./test/travis_prepare_dummy_files.bash
+=======
+  - bash -xve ./test/travis_prepare_dummy_files.bash
+  - rostest pimouse_ros test_buzzer.launch
+>>>>>>> d0a71040cf8a324a49403cb15326ffc18a82a457
   - rostest pimouse_ros test.launch
